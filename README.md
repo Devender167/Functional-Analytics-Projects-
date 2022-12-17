@@ -2,6 +2,25 @@
 This Repository contains the following files
 1.Amazon products review Sentiment Analysis
 2. Women's Clothing (E-Commerce): Customer-Recommendation and Review-Rating Prediction
+
+#Amazon products review Sentiment Analysis
+
+Context:
+This dataset is provided by Datafiniti's Product Database and it includes product information, rating and reviews for all products.
+
+We have tried to implement a sentiment analysis based on the ratings and the reviews.
+
+Content:
+This dataset includes 34660 rows and 21 columns. Each row corresponds to a customer review.
+Exploratory Data Analysis
+Text Pre-Processing
+Model Selection
+3 Labels
+Conclusion 
+
+Conclusion:
+From the models evaluated we can say that the three label sentiment analysis provieds good enough results. However, it can be improved by balancing the dataset. Either increasing the number of negative and neutral labels or by decreasing the positive labels. The f1, precision and recall overall score of the latest Random Forest model has good results.
+
 # Women's Clothing (E-Commerce): Customer-Recommendation and Review-Rating Prediction
 
 Context:
