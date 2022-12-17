@@ -10,7 +10,7 @@ This dataset is provided by Datafiniti's Product Database and it includes produc
 
 We have tried to implement a sentiment analysis based on the ratings and the reviews.
 
-Content:
+**Content:**
 This dataset includes 34660 rows and 21 columns. Each row corresponds to a customer review.
 Exploratory Data Analysis
 Text Pre-Processing
@@ -18,15 +18,15 @@ Model Selection
 3 Labels
 Conclusion 
 
-Conclusion:
+**Conclusion:**
 From the models evaluated we can say that the three label sentiment analysis provieds good enough results. However, it can be improved by balancing the dataset. Either increasing the number of negative and neutral labels or by decreasing the positive labels. The f1, precision and recall overall score of the latest Random Forest model has good results.
 
 # Women's Clothing (E-Commerce): Customer-Recommendation and Review-Rating Prediction
 
-Context:
+**Context:**
 This is a Women’s Clothing E-Commerce dataset revolving around the reviews written by customers. Its nine supportive features offer a great environment to parse out the text through its multiple dimensions. Because this is real commercial data, it has been anonymized, and references to the company in the review text and body have been replaced with “retailer”.
 
-Content:
+**Content:**
 This dataset includes 23486 rows and 10 feature variables. Each row corresponds to a customer review, and includes the variables:
 
 Clothing ID: Integer Categorical variable that refers to the specific piece being reviewed.
@@ -40,7 +40,8 @@ Division Name: Categorical name of the product high level division.
 Department Name: Categorical name of the product department name.
 Class Name: Categorical name of the product class name.
 
-Conclusion:
+
+**Conclusion:**
 In this project we have used sentiment analysis to determine whether the product is recommended or not. We have built models with different machine learning and Deep learning algorithms and compare their performance. Thus, we have determined the algorithm that makes the most accurate emotion estimation by using the information obtained from the Review Text variable.
 When the scores are examined in the Compare section, it is seen that the scores are generally close to each other, but the Random Forest model stands out.
 When a new customer without any previous purchase history visits the e-commerce website for the first time, he/she is recommended the most popular products sold on the company's website. Once, he/she makes a purchase, the recommendation system updates and recommends other products based on the purchase history and ratings provided by other users on the website. The latter part is done using collaborative filtering techniques.
