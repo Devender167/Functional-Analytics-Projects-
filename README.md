@@ -3,9 +3,9 @@ This Repository contains the following files
 1.Amazon products review Sentiment Analysis
 2. Women's Clothing (E-Commerce): Customer-Recommendation and Review-Rating Prediction
 
-#Amazon products review Sentiment Analysis
+# Amazon products review Sentiment Analysis
 
-Context:
+**Context:**
 This dataset is provided by Datafiniti's Product Database and it includes product information, rating and reviews for all products.
 
 We have tried to implement a sentiment analysis based on the ratings and the reviews.
